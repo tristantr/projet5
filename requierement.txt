@@ -7,3 +7,4 @@ tqdm==4.55.0
 PyMySQL==0.10.1
 peewee==3.14.0
 mysql-connector-python==8.0.22
+python-dotenv==0.15.0

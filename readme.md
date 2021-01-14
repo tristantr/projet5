@@ -1,103 +1,67 @@
-# CONTENTS OF THIS FILE
+# Projet 5 Get a healthier product using OpenFoodFacts API
 
  * Introduction
- * Requirements
- * Recommended modules
  * Installation
- * Configuration
-
+ * Launch the program
+ * Built with
+ * Author
 
 ## INTRODUCTION
 
-In this program, the user selects a category, choose a product from this category and gets a healthier substitute with a better nutriscore. 
+In this program, the user selects a category, chooses a product from this category and gets a healthier substitute with a better nutriscore. 
 This program uses data from the public API OpenFoodFacts. 
 
+### Installation
 
-## REQUIREMENTS
+Create a directory called OpenFoodFacts
 
-This module requires the following modules:
+Execute the command ``git clone https://github.com/tristanttttr/projet5.git`` to get the project
+
+Execute the commande ``cd OpenFoodFacts/`` to get into the directory
+
+Install the virtualenv package to create a virtual environement with the command ``pip install virtualenv``
+
+Create the virtual environment with ``virtualenv OpenFoodFacts``
+
+Activate the virtual environment:
+
+Mac OS / Linux : use the command ``source OpenFoodFacts/bin/activate``
+Windows : use the command ``OpenFoodFacts\Scripts\activate``
+You should see the name of your virtual environment in brackets on your terminal line.
+To desactivate your virtual environment, use the command ``desactivate``
+
+Install all required modules with ``pip install -r requirements.txt``
+
+
+## Launch the program 
+
+To launch the program, execute the command ``python3 main.py``
+
+## How to use 
+
+Once on the Menu section, select the "Get a substitute" option and choose a category of the product you want to substitute. 
+
+If you want to have a good substitute for cookies, select the "snacks" category. 
+Then find your product, select it and the program will give you a better substitute with a better nutriscore. 
+For each substitute, you will get the name, the brand, the description, the nutriscore, the product page in OpenFoodFacts and stores where to buy it.
+
+If you are not convinced by the substitute, you can get an other one ! 
+Juste select the "Get another substitute" option. 
+
+You can add the substitute to your list of favorites, and have access to it whenever you want. 
+
+
+## Built with
+
+Here are some modules I used to build the program, all listed in the requirements.txt file.
 
  * __Requests__ (https://pypi.org/project/requests/)
  * __Tqdm__ (https://pypi.org/project/tqdm/)
  * __PyMySQL__ (https://pypi.org/project/PyMySQL/)
- * __ MySQL Connector__ (https://dev.mysql.com/doc/connector-python/en/)
+ * __MySQL Connector__ (https://dev.mysql.com/doc/connector-python/en/)
  * __Peewee__ (https://pypi.org/project/peewee/)
  * __Dotenv__ (https://www.npmjs.com/package/dotenv)
 
+## Author
 
-## INSTALLATION
-
- * Here is a link of the github repository: https://github.com/tristanttttr/projet5.git
-
-
-## CONFIGURATION
-
- * Configure the .env file with your credentials:
-
-################################################
-
-# Projet 5 Get a healthier product using OpenFoodFacts API
-
-In this program, the user selects a category, choose a product from this category and gets a healthier substitute with a better nutriscore. 
-This program uses data from the public API OpenFoodFacts. 
-
-## Getting started
-
-Entrez ici les instructions pour bien débuter avec votre projet...
-
-### Pré-requis
-
-Ce qu'il est requis pour commencer avec votre projet...
-
-- Programme 1
-- Programme 2
-- etc...
-
-### Installation
-
-Les étapes pour installer votre programme....
-
-Dites ce qu'il faut faire...
-
-_exemple_: Executez la commande ``telnet mapscii.me`` pour commencer ensuite [...]
-
-
-Ensuite vous pouvez montrer ce que vous obtenez au final...
-
-## Démarrage
-
-Dites comment faire pour lancer votre projet
-
-## Fabriqué avec
-
-Entrez les programmes/logiciels/ressources que vous avez utilisé pour développer votre projet
-
-_exemples :_
-* [Materialize.css](http://materializecss.com) - Framework CSS (front-end)
-* [Atom](https://atom.io/) - Editeur de textes
-
-## Contributing
-
-Si vous souhaitez contribuer, lisez le fichier [CONTRIBUTING.md](https://example.org) pour savoir comment le faire.
-
-## Versions
-Listez les versions ici 
-_exemple :_
-**Dernière version stable :** 5.0
-**Dernière version :** 5.1
-Liste des versions : [Cliquer pour afficher](https://github.com/your/project-name/tags)
-_(pour le lien mettez simplement l'URL de votre projets suivi de ``/tags``)_
-
-## Auteurs
-Listez le(s) auteur(s) du projet ici !
-* **Jhon doe** _alias_ [@outout14](https://github.com/outout14)
-
-Lisez la liste des [contributeurs](https://github.com/your/project/contributors) pour voir qui à aidé au projet !
-
-_(pour le lien mettez simplement l'URL de votre projet suivi de ``/contirubors``)_
-
-## License
-
-Ce projet est sous licence ``exemple: WTFTPL`` - voir le fichier [LICENSE.md](LICENSE.md) pour plus d'informations
-
-
+Tristan Ttttr (https://github.com/tristanttttr)

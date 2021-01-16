@@ -40,7 +40,7 @@ HOST=xxx
 USER=xxx
 PASSWORD=xxx 
 
-Save this .env file in the root directory of the projetc
+Save this .env file in the root directory of the project
 
 
 ## Launch the program 

@@ -1,0 +1,10 @@
+certifi==2020.12.5
+chardet==3.0.4
+idna==2.10
+requests==2.25.0
+urllib3==1.26.2
+tqdm==4.55.0
+PyMySQL==0.10.1
+peewee==3.14.0
+mysql-connector-python==8.0.22
+python-dotenv==0.15.0

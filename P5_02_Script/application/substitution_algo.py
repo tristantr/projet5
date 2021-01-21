@@ -63,7 +63,7 @@ class Substitution:
             self.__sort_products_by_number_of_common_categories()
             self.__get_a_substitute_id()
         else:
-            pass
+            self.substitute_id = id_of_the_product_to_substitute
 
     def __get_products_from_a_category(
         self, id_of_the_product_to_substitute, selected_category_id

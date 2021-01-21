@@ -36,11 +36,14 @@ Create a dotenv document:
 Open a .txt file and rename it .env: 
 
 Copy and Past the following, replacing 'xxx' by your information :
+
 HOST=xxx
+
 USER=xxx
+
 PASSWORD=xxx 
 
-Save this .env file in the root directory of the projetc
+Save this .env file in the root directory of the project
 
 
 ## Launch the program 
